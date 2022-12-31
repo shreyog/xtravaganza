@@ -1,6 +1,6 @@
 import { SALUTATION } from "@/constants/misc";
 
-// import "/images/events/shorts.png" from "../images/events/shorts.png";
+// import "/images/events/shorts.webp" from "../images/events/shorts.webp";
 // import "/images/events/bingo.jpg" from "../images/events/bingo.jpg";
 
 export const EVENT_DATA = [
@@ -25,7 +25,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/shorts.png",
+      highlightImg: "/images/events/shorts.webp",
     },
   },
   {
@@ -60,7 +60,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/camera.png",
+      highlightImg: "/images/events/camera.webp",
       // cardContentStart: "end",
     },
   },
@@ -93,7 +93,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/brain_wave.png",
+      highlightImg: "/images/events/brain_wave.webp",
       // cardContentStart: "end",
     },
   },
@@ -122,7 +122,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/hashtag.png",
+      highlightImg: "/images/events/hashtag.webp",
       // cardContentStart: "end",
     },
   },
@@ -156,7 +156,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/bingo.png",
+      highlightImg: "/images/events/bingo.webp",
       // cardContentStart: "end",
     },
   },
@@ -188,7 +188,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/soloist.png",
+      highlightImg: "/images/events/soloist.webp",
       // cardContentStart: "end",
     },
   },
@@ -214,7 +214,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/turn_it_up.png",
+      highlightImg: "/images/events/turn_it_up.webp",
       // cardContentStart: "end",
     },
   },
@@ -251,7 +251,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/mr_extravaganza.png",
+      highlightImg: "/images/events/mr_extravaganza.webp",
       // cardContentStart: "end",
     },
   },
@@ -283,7 +283,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/fashionista.png",
+      highlightImg: "/images/events/fashionista.webp",
       // cardContentStart: "end",
     },
   },
@@ -309,7 +309,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/innovation.png",
+      highlightImg: "/images/events/innovation.webp",
       // cardContentStart: "end",
     },
   },
@@ -338,7 +338,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/ad_maniac.png",
+      highlightImg: "/images/events/ad_maniac.webp",
       // cardContentStart: "end",
     },
   },
@@ -366,7 +366,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/quiz.png",
+      highlightImg: "/images/events/quiz.webp",
       // cardContentStart: "end",
     },
   },
@@ -398,7 +398,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/hire.png",
+      highlightImg: "/images/events/hire.webp",
       // cardContentStart: "end",
     },
   },
@@ -424,7 +424,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/maquillage.png",
+      highlightImg: "/images/events/maquillage.webp",
       // cardContentStart: "end",
     },
   },
@@ -460,7 +460,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/artistry.png",
+      highlightImg: "/images/events/artistry.webp",
       // cardContentStart: "end",
     },
   },
@@ -493,7 +493,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/street_play.png",
+      highlightImg: "/images/events/street_play.webp",
       // cardContentStart: "end",
     },
   },
@@ -523,7 +523,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/scavengers.png",
+      highlightImg: "/images/events/scavengers.webp",
       // cardContentStart: "end",
     },
   },
@@ -557,7 +557,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/tug_of_war.png",
+      highlightImg: "/images/events/tug_of_war.webp",
       // cardContentStart: "end",
     },
   },
@@ -596,7 +596,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/snake_and_ladder.png",
+      highlightImg: "/images/events/snake_and_ladder.webp",
       // cardContentStart: "end",
     },
   },
@@ -631,7 +631,7 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/impersonation.png",
+      highlightImg: "/images/events/impersonation.webp",
       // cardContentStart: "end",
     },
   },

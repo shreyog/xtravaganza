@@ -2,6 +2,7 @@
 import Head from "next/head";
 import * as React from "react";
 
+import NextHeader from "@/components/NextHeader";
 import Hero from "@/components/Hero";
 import Events from "@/components/Events";
 import Sponsors from "@/components/Sponsors";
@@ -77,6 +78,7 @@ export default function Home() {
 
   return (
     <>
+      <NextHeader />
       <Hero offsetY={offsetY} />
       <main style={{ position: "relative" }} ref={box}>
         <div
@@ -87,10 +89,9 @@ export default function Home() {
           }}
         ></div>
         <Events offsetY={offsetY} />
-        <Sponsors/>
-        <Footer/>
+        <Sponsors />
+        <Footer />
       </main>
-     
     </>
   );
 }
