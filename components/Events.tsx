@@ -1,12 +1,11 @@
 import * as React from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 // @ts-ignore
 import { EVENT_DATA } from "@/data/eventData";
 
 import Modal from "./Modal";
-
-// import DarkBgURL from "../images/background/bg_abstract.jpg";
 
 export interface Coordinator {
   name: string;
@@ -100,7 +99,15 @@ const EventDetail = ({
       }}
       viewport={{ once: true, amount: 0.8 }}
     >
-      {backdropImg && <img src={backdropImg} className="card-backdrop-img" />}
+      {backdropImg && (
+        <Image
+          src={backdropImg}
+          alt={"backdrop"}
+          // className="card-backdrop-img"
+          width="200"
+          height="200"
+        />
+      )}
       <div
         className={`mini-card-content card-content ${
           cardContentStart === "end" ? "mt-auto" : ""
@@ -108,20 +115,26 @@ const EventDetail = ({
       >
         {allowFloatingTags && (
           <div className="pill-container">
-            {tags.map((tag: CardTag, idx: number) => (
-              <Tag tag={tag} key={`${idx}-tag`} />
-            ))}
+            {React.Children.toArray(
+              tags.map((tag: CardTag) => <Tag tag={tag} />)
+            )}
           </div>
         )}
         <h3 className="fv-h3 card-header">
           {name}&nbsp;
           {!allowFloatingTags &&
-            tags.map((tag: CardTag, idx: number) => (
-              <Tag tag={tag} key={`${idx}-tag-flag`} />
-            ))}
+            React.Children.toArray(
+              tags.map((tag: CardTag) => <Tag tag={tag} />)
+            )}
         </h3>
         {highlightImg && (
-          <img src={highlightImg} alt={name} className="card-highlight-img" />
+          <Image
+            src={highlightImg}
+            alt={name}
+            // className="card-highlight-img"
+            width="175"
+            height="175"
+          />
         )}
       </div>
     </motion.div>
@@ -139,7 +152,7 @@ const Events = ({ offsetY }: { offsetY: number }) => {
     <>
       <section className="event-container">
         <div className="event-container-content mb-10">
-        <h2 className="section-title fv-h2">Event&apos;s</h2>
+          <h2 className="section-title fv-h2">Event&apos;s</h2>
           <motion.div
             className="event-grid container-content"
             variants={container}

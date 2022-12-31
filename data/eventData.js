@@ -569,23 +569,23 @@ export const EVENT_DATA = [
       { label: "Off Stage", color: "#F28C28" },
       { label: "Group", color: "#0D5BE1" },
     ],
-    description: [
-      `Using a life sized Snakes and Ladders game field, participants will be able to play
-    Snakes and Ladders as the pieces on the board.`,
-      `They will play the game using a life sized dice and whenever they reach a snake or
-    ladder on the board, they will be asked to answer a technical question. Ready to climb
-    some ladders and dodge some venomous snakes?`,
-    ],
-    format: [
-      `Each game will take place for a maximum of 20 minutes, with 4 teams playing in a
-    game.`,
-      `Each team will have 2 members, who will take the place of the board piece.`,
-      `Questions will be asked to the contestants each time they encounter a snake or a
-      ladder.`,
-      `The difficulty of question will increase and after 60-70 squares possible question
-      will be: Name the company, whose slogan is the "power of dreams"?`,
-      `No prior registration is required to participate in this.`,
-    ],
+    // description: [
+    //   `Using a life sized Snakes and Ladders game field, participants will be able to play
+    // Snakes and Ladders as the pieces on the board.`,
+    //   `They will play the game using a life sized dice and whenever they reach a snake or
+    // ladder on the board, they will be asked to answer a technical question. Ready to climb
+    // some ladders and dodge some venomous snakes?`,
+    // ],
+    // format: [
+    //   `Each game will take place for a maximum of 20 minutes, with 4 teams playing in a
+    // game.`,
+    //   `Each team will have 2 members, who will take the place of the board piece.`,
+    //   `Questions will be asked to the contestants each time they encounter a snake or a
+    //   ladder.`,
+    //   `The difficulty of question will increase and after 60-70 squares possible question
+    //   will be: Name the company, whose slogan is the "power of dreams"?`,
+    //   `No prior registration is required to participate in this.`,
+    // ],
     coordinators: [
       {
         gender: SALUTATION.ms,

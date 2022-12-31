@@ -9,7 +9,7 @@ export const useOnScroll = (onScroll = (scrollY = 0, winHeight = 0) => {}) => {
     let currentScrollY = window.pageYOffset || 0;
     let currentWinHeight = window.innerHeight || 0;
     let prevScrollY = currentScrollY;
-    let animationId = null;
+    let animationId: any = null;
 
     const onTick = () => {
       if (currentScrollY !== prevScrollY) {
@@ -22,11 +22,11 @@ export const useOnScroll = (onScroll = (scrollY = 0, winHeight = 0) => {}) => {
 
     onTick();
 
-    const onScroll = (e) => {
+    const onScroll = (e: any) => {
       currentScrollY = window.pageYOffset || 0;
     };
 
-    const onResize = (e) => {
+    const onResize = (e: any) => {
       currentWinHeight = window.innerHeight || 0;
     };
 

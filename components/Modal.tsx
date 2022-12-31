@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 import Backdrop from "./Backdrop";
 import { Tag, CardTag, PhoneDetail, Coordinator } from "./Events";
@@ -46,10 +47,12 @@ const Modal = ({ handleClose, event }: { handleClose: any; event: any }) => {
       >
         <div className="card">
           {backdropImg && (
-            <img
+            <Image
               src={backdropImg}
-              className="card-backdrop-img"
-              alt="backdrop"
+              alt={"backdrop"}
+              // className="card-backdrop-img"
+              width="150"
+              height="150"
             />
           )}
           <div
@@ -72,70 +75,74 @@ const Modal = ({ handleClose, event }: { handleClose: any; event: any }) => {
                 ))}
             </h3>
             <div className="modal-content">
-            {noOfParticipants && (
-              <p className="mb-1">
-                No of Participants:{" "}
-                <span className="text-alt">{noOfParticipants}</span>
+              {noOfParticipants && (
+                <p className="mb-1">
+                  No of Participants:{" "}
+                  <span className="text-alt">{noOfParticipants}</span>
+                </p>
+              )}
+              {duration && (
+                <p className="mb-1">
+                  Duration: <span className="text-alt">{duration}</span>
+                </p>
+              )}
+              {description && <p className="mb-1">Description:</p>}
+              {description && (
+                <ul className="check-list mb-1">
+                  {React.Children.toArray(
+                    description.map((desc: string) => (
+                      <li className="text-alt">{desc}</li>
+                    ))
+                  )}
+                </ul>
+              )}
+              {format && <p className="mb-1">Format:</p>}
+              {format && (
+                <ul className="check-list mb-1">
+                  {React.Children.toArray(
+                    format.map((fmt: string) => (
+                      <li className="text-alt">{fmt}</li>
+                    ))
+                  )}
+                </ul>
+              )}
+              {rules && <p className="mb-1">Rules:</p>}
+              {rules && (
+                <ul className="check-list mb-1">
+                  {React.Children.toArray(
+                    rules.map((rule: string) => (
+                      <li className="text-alt">{rule}</li>
+                    ))
+                  )}
+                </ul>
+              )}
+              <p className="mb-1">Event Coordinator/s:</p>
+              <p>
+                {coordinators &&
+                  React.Children.toArray(
+                    coordinators.map(
+                      (
+                        coordinator: Coordinator,
+                        idx: number,
+                        arr: Coordinator[]
+                      ) => (
+                        <span>
+                          <PhoneDetail
+                            detail={{
+                              ...coordinator,
+                              separator: idx === arr.length - 1 ? "" : ", ",
+                            }}
+                          />
+                        </span>
+                      )
+                    )
+                  )}
               </p>
-            )}
-            {duration && (
-              <p className="mb-1">
-                Duration: <span className="text-alt">{duration}</span>
-              </p>
-            )}
-            {description && <p className="mb-1">Description:</p>}
-            {description && (
-              <ul className="check-list mb-1">
-                {description.map((desc: string, idx: number) => (
-                  <li className="text-alt" key={`${idx}-desc`}>
-                    {desc}
-                  </li>
-                ))}
-              </ul>
-            )}
-            {format && <p className="mb-1">Format:</p>}
-            {format && (
-              <ul className="check-list mb-1">
-                {format.map((fmt: string, idx: number) => (
-                  <li className="text-alt" key={`${idx}-fmt`}>
-                    {fmt}
-                  </li>
-                ))}
-              </ul>
-            )}
-            {rules && <p className="mb-1">Rules:</p>}
-            {rules && (
-              <ul className="check-list mb-1">
-                {rules.map((rule: string, idx: number) => (
-                  <li className="text-alt" key={`${idx}-rule`}>
-                    {rule}
-                  </li>
-                ))}
-              </ul>
-            )}
-            <p className="mb-1">Event Coordinator/s:</p>
-            <p>
-              {coordinators &&
-                coordinators.map(
-                  (
-                    coordinator: Coordinator,
-                    idx: number,
-                    arr: Coordinator[]
-                  ) => (
-                    <span key={`${idx}-phone-detail`}>
-                      <PhoneDetail
-                        detail={{
-                          ...coordinator,
-                          separator: idx === arr.length - 1 ? "" : ", ",
-                        }}
-                      />
-                    </span>
-                  )
-                )}
-            </p>
-            <div className="btn-container">
-              <button className="btn" onClick={handleClose}>Close</button>
-            </div>
+              <div className="btn-container">
+                <button className="btn" onClick={handleClose}>
+                  Close
+                </button>
+              </div>
             </div>
           </div>
         </div>

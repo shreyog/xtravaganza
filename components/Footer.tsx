@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,10 +8,20 @@ const Footer = () => {
         <h2 className="section-title fv-h2">Contact Us</h2>
         <div className="social-links">
           <a href={"https://www.instagram.com/__xtravaganza__/"}>
-            <img src={"/images/icons/instagram.png"} alt="instagram" />
+            <Image
+              src={"/images/icons/instagram.png"}
+              alt="instagram"
+              height="50"
+              width="50"
+            />
           </a>
           <a href="mailto:xtravaganza2022@gmail.com">
-            <img src={"/images/icons/email.png"} alt="email" />
+            <Image
+              src={"/images/icons/email.png"}
+              alt="email"
+              height="50"
+              width="50"
+            />
           </a>
         </div>
       </div>
