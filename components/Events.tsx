@@ -138,12 +138,8 @@ const Events = ({ offsetY }: { offsetY: number }) => {
   return (
     <>
       <section className="event-container">
-        {/* <img
-          className="event-container-bg"
-          src={"/images/background/bg_abstract.jpg"}
-          style={{ objectFit: "cover" }}
-        /> */}
-        <div className="event-container-content pb-12">
+        <div className="event-container-content mb-10">
+        <h2 className="section-title fv-h2">Event&apos;s</h2>
           <motion.div
             className="event-grid container-content"
             variants={container}

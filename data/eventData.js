@@ -33,8 +33,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "1",
     tags: [
-      { label: "Prelude", color: "" },
-      { label: "Solo", color: "" },
+      { label: "Prelude", color: "red" },
+      { label: "Solo", color: "#228B22" },
     ],
     rules: [
       "Theme: Reflective",
@@ -69,8 +69,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "1",
     tags: [
-      { label: "Prelude", color: "" },
-      { label: "Solo", color: "" },
+      { label: "Prelude", color: "red" },
+      { label: "Solo", color: "#228B22" },
     ],
     rules: [
       "Theme: College Life",
@@ -103,8 +103,8 @@ export const EVENT_DATA = [
     noOfParticipants: "5 - 10",
     category: "Off Stage",
     tags: [
-      { label: "Prelude", color: "" },
-      { label: "Group", color: "" },
+      { label: "Prelude", color: "red" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       "Theme: Myth",
@@ -131,8 +131,8 @@ export const EVENT_DATA = [
     duration: "3 - 4 mins",
     noOfParticipants: "All",
     tags: [
-      { label: "On Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "On Stage", color: "#6127ff" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       `Participants must introduce the team in an unique
@@ -165,8 +165,8 @@ export const EVENT_DATA = [
     duration: "2 - 3 mins",
     noOfParticipants: "1",
     tags: [
-      { label: "On Stage", color: "" },
-      { label: "Solo", color: "" },
+      { label: "On Stage", color: "#6127ff" },
+      { label: "Solo", color: "#228B22" },
     ],
     rules: [
       "Theme: Open",
@@ -197,8 +197,8 @@ export const EVENT_DATA = [
     duration: "3 - 5 mins",
     noOfParticipants: "5 - 8",
     tags: [
-      { label: "On Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "On Stage", color: "#6127ff" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       "Theme: Free Style Group Dance",
@@ -223,8 +223,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "2 Participants (1 Girl & 1 Boy)",
     tags: [
-      { label: "On Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "On Stage", color: "#6127ff" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       "Three Rounds:",
@@ -260,8 +260,8 @@ export const EVENT_DATA = [
     duration: "10 mins",
     noOfParticipants: "8 - 12",
     tags: [
-      { label: "On Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "On Stage", color: "#6127ff" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       "Theme: Wild",
@@ -292,8 +292,8 @@ export const EVENT_DATA = [
     duration: "5 mins",
     noOfParticipants: "Max 2",
     tags: [
-      { label: "On Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "On Stage", color: "#6127ff" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       `Participant will have to do PowerPoint
@@ -318,8 +318,8 @@ export const EVENT_DATA = [
     duration: "1 - 2 mins",
     noOfParticipants: "2 - 3",
     tags: [
-      { label: "On Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "On Stage", color: "#6127ff" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       "Theme: Product Advertising",
@@ -347,8 +347,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "2",
     tags: [
-      { label: "On Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "On Stage", color: "#6127ff" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       `It is a quiz competition between teams.`,
@@ -375,8 +375,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "2",
     tags: [
-      { label: "Off Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "Off Stage", color: "#F28C28" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       `Participants will be provided set of clues based on
@@ -407,8 +407,8 @@ export const EVENT_DATA = [
     duration: "1hr",
     noOfParticipants: "2",
     tags: [
-      { label: "Off Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "Off Stage", color: "#F28C28" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       "Theme : Topic will be given on the spot",
@@ -433,8 +433,8 @@ export const EVENT_DATA = [
     duration: "1hr",
     noOfParticipants: "1",
     tags: [
-      { label: "Off Stage", color: "" },
-      { label: "Solo", color: "" },
+      { label: "Off Stage", color: "#F28C28" },
+      { label: "Solo", color: "#228B22" },
     ],
     rules: [
       "Theme: Topic will be given on the spot",
@@ -469,8 +469,8 @@ export const EVENT_DATA = [
     duration: "10 mins",
     noOfParticipants: "8 - 10",
     tags: [
-      { label: "Off Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "Off Stage", color: "#F28C28" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       "Theme: Women Safety, COVID, NEP",
@@ -502,8 +502,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "2 (1 Girl & 1 Boy)",
     tags: [
-      { label: "Off Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "Off Stage", color: "#F28C28" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       "Participants will be given physical task to perform on the spot.",
@@ -532,8 +532,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "8 (Including at least one female)",
     tags: [
-      { label: "Off Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "Off Stage", color: "#F28C28" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
       `Both teams pull the rope, the winner being
@@ -566,8 +566,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "",
     tags: [
-      { label: "Off Stage", color: "" },
-      { label: "Group", color: "" },
+      { label: "Off Stage", color: "#F28C28" },
+      { label: "Group", color: "#0D5BE1" },
     ],
     description: [
       `Using a life sized Snakes and Ladders game field, participants will be able to play
@@ -605,8 +605,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "1",
     tags: [
-      { label: "Off Stage", color: "" },
-      { label: "Solo", color: "" },
+      { label: "Off Stage", color: "#F28C28" },
+      { label: "Solo", color: "#228B22" },
     ],
     rules: [
       "Participant have to dress and act as a character.",

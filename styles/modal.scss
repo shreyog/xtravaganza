@@ -22,3 +22,8 @@
 
   background-color: var(--color-gray-darkest);
 }
+
+.modal-content {
+  max-height: 30rem;
+  overflow-y: auto;
+}

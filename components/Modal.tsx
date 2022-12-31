@@ -53,7 +53,7 @@ const Modal = ({ handleClose, event }: { handleClose: any; event: any }) => {
             />
           )}
           <div
-            className={`card-content ${
+            className={`card-content  ${
               cardContentStart === "end" ? "mt-auto" : ""
             }`}
           >
@@ -71,6 +71,7 @@ const Modal = ({ handleClose, event }: { handleClose: any; event: any }) => {
                   <Tag tag={tag} key={`${idx}-tag-flag`} />
                 ))}
             </h3>
+            <div className="modal-content">
             {noOfParticipants && (
               <p className="mb-1">
                 No of Participants:{" "}
@@ -132,6 +133,10 @@ const Modal = ({ handleClose, event }: { handleClose: any; event: any }) => {
                   )
                 )}
             </p>
+            <div className="btn-container">
+              <button className="btn" onClick={handleClose}>Close</button>
+            </div>
+            </div>
           </div>
         </div>
       </motion.div>

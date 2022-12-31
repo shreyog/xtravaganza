@@ -1,9 +1,11 @@
+// @ts-nocheck
 import Head from "next/head";
 import * as React from "react";
 
 import Hero from "@/components/Hero";
 import Events from "@/components/Events";
 import Sponsors from "@/components/Sponsors";
+import Footer from "@/components/Footer";
 
 import { useOnScroll } from "@/hooks/useOnScroll";
 
@@ -26,7 +28,6 @@ export default function Home() {
     speed = -10;
 
   useOnScroll((scrollY, winHeight) => {
-    // if (fixed) return;
     if (!box.current) return;
     if (!img.current) return;
     // if (!boxInitialized.current || !box.current || !boxRect.current) return;
@@ -87,8 +88,9 @@ export default function Home() {
         ></div>
         <Events offsetY={offsetY} />
         <Sponsors/>
-        {/* <section style={{ height: "200vh" }}></section> */}
+        <Footer/>
       </main>
+     
     </>
   );
 }

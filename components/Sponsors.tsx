@@ -76,62 +76,13 @@ function ParallaxText({ children, baseVelocity = 100, names }: ParallaxProps) {
 
 const Sponsors = () => {
   return (
-    <section className="pb-12">
+    <section className="sponsor-container mb-6">
+      <h2 className="section-title fv-h2">Our Sponsor&apos;s</h2>
       <ParallaxText baseVelocity={-1} names={above5k} />
       <ParallaxText baseVelocity={1} names={lessThen5KButAbove1k} />
+      <ParallaxText baseVelocity={1} names={above5k} />
+      <ParallaxText baseVelocity={-1} names={lessThen5KButAbove1k} />
     </section>
-    // <div
-    //   className="styles_line "
-    //   // style={{ display: "flex", overflow: "hidden" }}
-    // >
-    //   {React.Children.toArray(
-    //     [
-    //       "test",
-    //       "test2",
-    //       "test",
-    //       "test2",
-    //       "test",
-    //       "test2",
-    //       "test",
-    //       "test2",
-    //       "test",
-    //       "test2",
-    //       "test",
-    //       "test2",
-    //     ].map((d) => (
-    //       <span className="fv-h3">
-    //         {/* <span className="card" style={{ width: "400px" }}> */}
-    //         {d}
-    //         {/* </span> */}
-    //       </span>
-    //     ))
-    //   )}
-    // </div>
-    // <motion.div
-    //   initial={{ x: "-52%" }}
-    //   animate={{ x: "0%" }}
-    //   transition={{ ease: "easeInOut", duration: 0.3 }}
-    // ></motion.div>
-    // <div className="section-reviews__bottom">
-    //   <div className="section-reviews__bottom-wrapper review-card__anim1">
-    //     {[].map((review: any) => (
-    //       <div key={review.id} className="review-card">
-    //         <div className="review-card__top">
-    //           <div className="review-card__top--left">
-    //             <p className="review-card__p">{review.name}</p>
-    //             <h3 className="review-card__h3">{review.userName}</h3>
-    //           </div>
-    //           <div className="review-card__top--right">
-    //             <img src="svg/twitter.svg" alt="twitter icon" />
-    //           </div>
-    //         </div>
-    //         <div className="review-card__bottom">
-    //           <h2 className="review-card__h2">{review.reply}</h2>
-    //         </div>
-    //       </div>
-    //     ))}
-    //   </div>
-    // </div>
   );
 };
 
