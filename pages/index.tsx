@@ -1,7 +1,8 @@
 // @ts-nocheck
-import Head from "next/head";
 import * as React from "react";
+import ReactGa from "react-ga";
 
+import PreLoader from "@/components/PreLoader";
 import NextHeader from "@/components/NextHeader";
 import Hero from "@/components/Hero";
 import Events from "@/components/Events";
@@ -17,6 +18,8 @@ export default function Home() {
   };
 
   React.useEffect(() => {
+    ReactGa.initialize("G-NGE2K8E36K");
+    ReactGa.pageview(window.location.pathname);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -79,6 +82,7 @@ export default function Home() {
   return (
     <>
       <NextHeader />
+      <PreLoader />
       <Hero offsetY={offsetY} />
       <main style={{ position: "relative" }} ref={box}>
         <div

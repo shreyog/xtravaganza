@@ -35,7 +35,7 @@ function ParallaxText({ children, baseVelocity = 100, names }: ParallaxProps) {
    * have to replace for wrapping that works for you or dynamically
    * calculate
    */
-  const x = useTransform(baseX, (v) => `${wrap(-20, -55, v)}%`);
+  const x = useTransform(baseX, (v) => `${wrap(0, -25, v)}%`);
 
   const directionFactor = useRef<number>(1);
   useAnimationFrame((t, delta) => {
@@ -52,7 +52,6 @@ function ParallaxText({ children, baseVelocity = 100, names }: ParallaxProps) {
     }
 
     moveBy += directionFactor.current * moveBy * velocityFactor.get();
-
     baseX.set(baseX.get() + moveBy);
   });
 
@@ -76,7 +75,7 @@ function ParallaxText({ children, baseVelocity = 100, names }: ParallaxProps) {
 
 const Sponsors = () => {
   return (
-    <section className="sponsor-container mb-6">
+    <section className="sponsor-container mb-6" style={{ marginTop: "1rem" }}>
       <h2 className="section-title fv-h2">Our Sponsor&apos;s</h2>
       <ParallaxText baseVelocity={-1} names={above5k} />
       <ParallaxText baseVelocity={1} names={lessThen5KButAbove1k} />

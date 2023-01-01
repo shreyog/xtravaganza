@@ -10,6 +10,8 @@ export const above5k = [
   "narayan ghanashyam parab",
   "Aadesh Konadkar",
   "naresh wood industry",
+  "Ankita Classic",
+  "M/S  Veydant Motors",
 ];
 
 export const lessThen5KButAbove1k = [

@@ -128,13 +128,15 @@ const EventDetail = ({
             )}
         </h3>
         {highlightImg && (
-          <Image
-            src={highlightImg}
-            alt={name}
-            // className="card-highlight-img"
-            width="175"
-            height="175"
-          />
+          <div className="card-highlight-container">
+            <Image
+              src={highlightImg}
+              alt={name}
+              // className="card-highlight-img"
+              width="175"
+              height="175"
+            />
+          </div>
         )}
       </div>
     </motion.div>

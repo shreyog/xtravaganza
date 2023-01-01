@@ -105,6 +105,11 @@
   transform: rotate(45deg);
 }
 
+.card-highlight-container {
+  display: grid;
+  place-items: center;
+}
+
 .card-highlight-img {
   // max-height: 6rem;
   object-fit: contain;
