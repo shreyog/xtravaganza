@@ -1,6 +1,9 @@
 .hero-container {
   position: relative;
   height: 100vh;
+  user-select: none;
+  pointer-events: none;
+  cursor: none;
 }
 
 .hero-container:after {

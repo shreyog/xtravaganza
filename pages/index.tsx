@@ -79,7 +79,7 @@ export default function Home() {
   return (
     <>
       <NextHeader />
-      <PreLoader />
+      {/* <PreLoader /> */}
       <Hero offsetY={offsetY} />
       <main style={{ position: "relative" }} ref={box}>
         <div

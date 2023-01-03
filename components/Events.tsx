@@ -1,9 +1,10 @@
 import * as React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 
 // @ts-ignore
 import { EVENT_DATA } from "@/data/eventData";
+import Image from "./Image";
 
 import Modal from "./Modal";
 
@@ -99,7 +100,7 @@ const EventDetail = ({
       }}
       viewport={{ once: true, amount: 0.8 }}
     >
-      {backdropImg && (
+      {/* {backdropImg && (
         <Image
           src={backdropImg}
           alt={"backdrop"}
@@ -107,11 +108,22 @@ const EventDetail = ({
           width="200"
           height="200"
         />
+      )} */}
+      {highlightImg && (
+        <Image
+          src={highlightImg}
+          alt={name}
+          className="event-card-container"
+          // className="card-highlight-img"
+          // width="175"
+          // height="175"
+        />
       )}
       <div
-        className={`mini-card-content card-content ${
-          cardContentStart === "end" ? "mt-auto" : ""
-        }`}
+        className="event-card-details"
+        // className={`mini-card-content card-content ${
+        //   cardContentStart === "end" ? "mt-auto" : ""
+        // }`}
       >
         {allowFloatingTags && (
           <div className="pill-container">
@@ -120,24 +132,17 @@ const EventDetail = ({
             )}
           </div>
         )}
-        <h3 className="fv-h3 card-header">
+        <h3 className="fv-h5 card-header">
           {name}&nbsp;
           {!allowFloatingTags &&
             React.Children.toArray(
               tags.map((tag: CardTag) => <Tag tag={tag} />)
             )}
         </h3>
-        {highlightImg && (
-          <div className="card-highlight-container">
-            <Image
-              src={highlightImg}
-              alt={name}
-              // className="card-highlight-img"
-              width="175"
-              height="175"
-            />
-          </div>
-        )}
+        <p
+          className="fv-p-sm text-alt"
+          style={{ marginTop: "0.5rem", fontWeight: 700 }}
+        >{`Details >>>`}</p>
       </div>
     </motion.div>
   );

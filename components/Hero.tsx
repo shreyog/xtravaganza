@@ -2,7 +2,7 @@ import * as React from "react";
 
 const HeroParallax = ({ offsetY }: { offsetY: number }) => {
   return (
-    <section className="hero-container parallax__group">
+    <header className="hero-container parallax__group">
       <div className="title-container" style={{}}>
         <h1 style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
           Xtravaganza
@@ -31,7 +31,7 @@ const HeroParallax = ({ offsetY }: { offsetY: number }) => {
       ></div>
       <div className="parallax__layer people3"></div>
       <div className="parallax__layer overlay"></div>
-    </section>
+    </header>
   );
 };
 

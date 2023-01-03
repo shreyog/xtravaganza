@@ -210,7 +210,7 @@ export const EVENT_DATA = [
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
-      { gender: SALUTATION.ms, name: "Neha Govekar", number: "932573570" },
+      { gender: SALUTATION.ms, name: "Neha Govekar", number: "9325735870" },
     ],
     cssOptions: {
       allowFloatingTags: true,

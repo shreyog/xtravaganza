@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Favicon from "@/components/Favicon";
+
 const NextHeader = ({
   title = "Xtravaganza",
   description = `SSA Govt. College Pernem, Department Of Commerce Organises 1 Day Inter Collegiate Event Xtravaganza.`,
@@ -8,6 +10,11 @@ const NextHeader = ({
 }) => {
   return (
     <Head>
+      <meta charSet="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <Favicon />
+      
       <title>{title}</title>
       <meta name="description" content={description} />
 
