@@ -5,7 +5,7 @@ import Favicon from "@/components/Favicon";
 const NextHeader = ({
   title = "Xtravaganza",
   description = `SSA Govt. College Pernem, Department Of Commerce Organises 1 Day Inter Collegiate Event Xtravaganza.`,
-  image = "https://www.xtravaganza.in/images/xtravaganza_dark.webp",
+  image = "https://www.xtravaganza.in/images/xtravaganza_dark_bg.webp",
   siteUrl = "https://www.xtravaganza.in",
 }) => {
   return (
@@ -14,7 +14,7 @@ const NextHeader = ({
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <Favicon />
-      
+
       <title>{title}</title>
       <meta name="description" content={description} />
 
