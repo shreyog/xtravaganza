@@ -139,8 +139,14 @@ const Modal = ({ handleClose, event }: { handleClose: any; event: any }) => {
                   )}
               </p>
               <div className="btn-container">
-                <button className="btn" onClick={handleClose}>
+                {/* <button className="btn" onClick={handleClose}>
                   Close
+                </button> */}
+                <button className="custom-btn btn-2 " onClick={handleClose}>
+                  {/* <span> */}
+                    Close
+                    {/* </span> */}
+                 
                 </button>
               </div>
             </div>

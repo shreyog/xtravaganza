@@ -10,18 +10,15 @@ const transition: { duration: number; ease: number[] } = {
 const PerLoader = () => {
   return (
     <motion.div
-        animate={{ top: "-100vh", transition: { ...transition, delay: 3 } }}
+      animate={{ top: "-100vh", transition: { ...transition, delay: 3 } }}
       className="preloader"
     >
-      <div className="preloader__wrapper">
-        <Image
-          src="/images/xtravaganza_dark.webp"
-          alt="Xtravaganza"
-          width="100"
-          height="100"
-        />
+      <div className=" loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
         <span className="fv-h5">&nbsp;Xtravaganza 2.0</span>
-       
       </div>
     </motion.div>
   );

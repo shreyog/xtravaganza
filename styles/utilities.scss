@@ -10,8 +10,9 @@
 }
 
 .section-title {
+  font-family: $font-primary, sans-serif;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 3rem;
 }
 
@@ -31,3 +32,10 @@
   text-align: center;
 }
 
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}

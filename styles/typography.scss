@@ -28,6 +28,14 @@
   line-height: var(--lh-size-subtitle);
 }
 
+.fv-h1,
+.fv-h2,
+.fv-h3,
+.fv-h4,
+.fv-h5 {
+  font-family: $font-primary, sans-serif;
+}
+
 .fv-p-lg {
   font-size: var(--font-size-display-l);
   line-height: var(--lh-size-display-l);

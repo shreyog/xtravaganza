@@ -29,7 +29,10 @@ export interface CardTag {
 }
 
 export const Tag = ({ tag }: { tag: CardTag }) => (
-  <span className="pill fw-bold" style={{ backgroundColor: tag.color || "" }}>
+  <span
+    className="pill fw-semibold"
+    style={{ backgroundColor: tag.color || "" }}
+  >
     {tag.label}
   </span>
 );
@@ -69,8 +72,7 @@ const EventDetail = ({
   id: number;
 }) => {
   const { name, tags, cssOptions } = event;
-  const { cardContentStart, backdropImg, allowFloatingTags, highlightImg } =
-    cssOptions;
+  const { allowFloatingTags, highlightImg } = cssOptions;
 
   return (
     <motion.div
@@ -100,15 +102,6 @@ const EventDetail = ({
       }}
       viewport={{ once: true, amount: 0.8 }}
     >
-      {/* {backdropImg && (
-        <Image
-          src={backdropImg}
-          alt={"backdrop"}
-          // className="card-backdrop-img"
-          width="200"
-          height="200"
-        />
-      )} */}
       {highlightImg && (
         <Image
           src={highlightImg}
@@ -140,8 +133,8 @@ const EventDetail = ({
             )}
         </h3>
         <p
-          className="fv-p-sm text-alt"
-          style={{ marginTop: "0.5rem", fontWeight: 700 }}
+          className="fv-p-sm text-alt fw-semibold"
+          style={{ marginTop: "0.5rem" }}
         >{`Details >>>`}</p>
       </div>
     </motion.div>
