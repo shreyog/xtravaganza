@@ -1,12 +1,7 @@
 export const above5k = [
+  "Aniket Salgaonkar (Sarpanch Dhargalim)",
   "Ankita Classic",
   "M/S  Veydant Motors",
-  // "Mission For Local",
-  // "Mr. Sagar Tilve",
-  // "Nexa Sai Service",
-  // "Mr. Madhav Sinai Dessai",
-  // "Palm Grove Beach Resort",
-  // "M/s Manisha Constructions",
   "narayan ghanashyam parab",
   "Aadesh Konadkar",
   "naresh wood industry",
@@ -26,16 +21,22 @@ export const lessThen5KButAbove1k = [
   "Deu gadekar",
   "Vintage restaurant",
   "Rahul Bhagat",
-  
+  "Surekha Amit Shetgaonkar (Sarpanch Morjim)",
+  "Winful diesel Pvt. Ltd.",
+];
+
+export const lessThen5KButAbove1kList2 = [
   "Amul k p parlor",
   "Shambhavi parsekar",
-  "Krishna bar and restaurant",
+  "Krishna bar & Resto",
   "Omkar wine store",
   "Nigalyi store",
   "Thomas D'Souza",
   "Aryan sawal",
   "Rajendra yashwant sawal",
-  "Shubham bar & restaurant",
+  "Shubham bar & Resto",
+  "Vilas Morje (Panch)",
+  "Nilma Fam. Resto",
 ];
 
 export const lessThen1kButAbove500 = [

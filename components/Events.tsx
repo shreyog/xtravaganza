@@ -152,7 +152,7 @@ const Events = ({ offsetY }: { offsetY: number }) => {
     <>
       <section className="event-container">
         <div className="event-container-content mb-10">
-          <h2 className="section-title fv-h2">Event&apos;s</h2>
+          <h2 className="section-title fv-h1">Event&apos;s</h2>
           <motion.div
             className="event-grid container-content"
             variants={container}
