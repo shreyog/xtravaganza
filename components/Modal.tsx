@@ -67,7 +67,7 @@ const Modal = ({ handleClose, event }: { handleClose: any; event: any }) => {
                 ))}
               </div>
             )}
-            <h3 className="fv-h3 card-header">
+            <h3 className="fv-h5 card-header">
               {name}&nbsp;
               {!allowFloatingTags &&
                 tags.map((tag: CardTag, idx: number) => (

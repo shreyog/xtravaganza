@@ -50,9 +50,9 @@ export default function Home() {
     // const imgBottom = imgTop + imgHeight;
 
     if (imgHeight < boxHeight) {
-      console.warn(
-        `parallax effect doesn't work if image is smaller than the bounding box. imgHeight=${imgHeight} boxHeight=${boxHeight}`
-      );
+      // console.warn(
+      //   `parallax effect doesn't work if image is smaller than the bounding box. imgHeight=${imgHeight} boxHeight=${boxHeight}`
+      // );
       return;
     }
 

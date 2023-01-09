@@ -564,7 +564,7 @@ export const EVENT_DATA = [
   {
     name: "Snakes And Ladders",
     duration: "",
-    noOfParticipants: "",
+    noOfParticipants: "2",
     tags: [
       { label: "Off Stage", color: "#F28C28" },
       { label: "Group", color: "#0D5BE1" },

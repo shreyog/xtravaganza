@@ -125,7 +125,7 @@ const EventDetail = ({
             )}
           </div>
         )}
-        <h3 className="fv-h5 card-header">
+        <h3 className="fv-subtitle card-header">
           {name}&nbsp;
           {!allowFloatingTags &&
             React.Children.toArray(

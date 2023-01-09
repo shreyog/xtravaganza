@@ -9,18 +9,18 @@ const Footer = () => {
         <div className="social-links">
           <a href={"https://www.instagram.com/__xtravaganza__/"}>
             <Image
-              src={"/images/icons/instagram.png"}
+              src={"/images/icons/instagram.webp"}
               alt="instagram"
-              height="50"
-              width="50"
+              height="70"
+              width="70"
             />
           </a>
           <a href="mailto:xtravaganza2022@gmail.com">
             <Image
-              src={"/images/icons/email.png"}
+              src={"/images/icons/email.webp"}
               alt="email"
-              height="50"
-              width="50"
+              height="70"
+              width="70"
             />
           </a>
         </div>
