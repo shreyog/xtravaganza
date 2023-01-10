@@ -98,7 +98,7 @@ const EventDetail = ({
       whileInView="onscreen"
       transition={{
         duration: 0.2,
-        delay: id * 0.1,
+        delay: id * 0.09,
       }}
       viewport={{ once: true, amount: 0.8 }}
     >

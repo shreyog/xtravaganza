@@ -87,7 +87,7 @@ export default function Home() {
       <main style={{ position: "relative" }} ref={box}>
         <div
           ref={img}
-          className="icon"
+          className="parallax-bg"
           style={{
             transform: `translate(0, ${ΔY * 100}px)`,
           }}

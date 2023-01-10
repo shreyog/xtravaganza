@@ -7,8 +7,8 @@ import { EVENT_DETAILS } from "@/data/eventDetails";
 
 const EventDetails = () => {
   return (
-    <section className="event-details-container container-content mt-10">
-      <h2 className="section-title fv-h2">Event Detail&apos;s</h2>
+    <section className="event-details-container container-content ">
+      <h2 className="section-title fv-h2 mt-10">Event Detail&apos;s</h2>
       <div className="event-details">
         {React.Children.toArray(
           EVENT_DETAILS.map((eventDetail) => (
