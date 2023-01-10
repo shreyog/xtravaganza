@@ -35,7 +35,7 @@ const ParallaxText = ({
 const Sponsors = () => {
   return (
     <section className="sponsor-container mb-6" style={{ marginTop: "1rem" }}>
-      <h2 className="section-title fv-h1">Our Sponsor&apos;s</h2>
+      <h2 className="section-title fv-h2">Our Sponsor&apos;s</h2>
 
       <ParallaxText names={above5k} />
       <ParallaxText

@@ -16,6 +16,13 @@
   margin-bottom: 3rem;
 }
 
+.contact-us-title {
+  font-family: $font-primary, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  margin-block: 3rem;
+}
+
 .mb-6 {
   margin-block: 6rem;
 }
@@ -28,6 +35,10 @@
   margin-block: 10rem;
 }
 
+.mt-10 {
+  margin-top: 10rem;
+}
+
 .caption {
   text-align: center;
 }
@@ -38,4 +49,8 @@
 
 .fw-semibold {
   font-weight: 600;
+}
+
+.fw-medium {
+  font-weight: 500;
 }

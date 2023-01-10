@@ -1,8 +1,13 @@
 .footer {
   width: 100%;
-//   background-color: var(--color-black);
+  //   background-color: var(--color-black);
   transform: translateZ(0) scale(1);
   z-index: 10;
+}
+
+.footer-logo {
+  display: grid;
+  place-items: center;
 }
 
 .social-links {
@@ -12,8 +17,6 @@
   gap: 1.5rem;
   width: 100%;
   margin-bottom: 3rem;
-
- 
 
   // img {
   //   height: 4rem;
@@ -29,6 +32,6 @@
   display: grid;
   place-items: center;
   a {
-    color: green;
+    color: #10a4f1;
   }
 }

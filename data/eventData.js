@@ -9,7 +9,7 @@ export const EVENT_DATA = [
     duration: "2 - 5 mins",
     noOfParticipants: "5 - 8",
     tags: [
-      { label: "Prelude", color: "red" },
+      { label: "Prelude", color: "#AD0000" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
@@ -33,8 +33,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "1",
     tags: [
-      { label: "Prelude", color: "red" },
-      { label: "Solo", color: "#228B22" },
+      { label: "Prelude", color: "#AD0000" },
+      { label: "Solo", color: "#186318" },
     ],
     rules: [
       "Theme: Reflective",
@@ -69,8 +69,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "1",
     tags: [
-      { label: "Prelude", color: "red" },
-      { label: "Solo", color: "#228B22" },
+      { label: "Prelude", color: "#AD0000" },
+      { label: "Solo", color: "#186318" },
     ],
     rules: [
       "Theme: College Life",
@@ -101,9 +101,8 @@ export const EVENT_DATA = [
     name: "Hashtag",
     duration: "30 - 45 sec",
     noOfParticipants: "5 - 10",
-    category: "Off Stage",
     tags: [
-      { label: "Prelude", color: "red" },
+      { label: "Prelude", color: "#AD0000" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
@@ -166,7 +165,7 @@ export const EVENT_DATA = [
     noOfParticipants: "1",
     tags: [
       { label: "On Stage", color: "#6127ff" },
-      { label: "Solo", color: "#228B22" },
+      { label: "Solo", color: "#186318" },
     ],
     rules: [
       "Theme: Open",
@@ -375,7 +374,7 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "2",
     tags: [
-      { label: "Off Stage", color: "#F28C28" },
+      { label: "Off Stage", color: "#7C4280" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
@@ -407,7 +406,7 @@ export const EVENT_DATA = [
     duration: "1hr",
     noOfParticipants: "2",
     tags: [
-      { label: "Off Stage", color: "#F28C28" },
+      { label: "Off Stage", color: "#7C4280" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
@@ -433,8 +432,8 @@ export const EVENT_DATA = [
     duration: "1hr",
     noOfParticipants: "1",
     tags: [
-      { label: "Off Stage", color: "#F28C28" },
-      { label: "Solo", color: "#228B22" },
+      { label: "Off Stage", color: "#7C4280" },
+      { label: "Solo", color: "#186318" },
     ],
     rules: [
       "Theme: Topic will be given on the spot",
@@ -469,7 +468,7 @@ export const EVENT_DATA = [
     duration: "10 mins",
     noOfParticipants: "8 - 10",
     tags: [
-      { label: "Off Stage", color: "#F28C28" },
+      { label: "Off Stage", color: "#7C4280" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
@@ -502,7 +501,7 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "2 (1 Girl & 1 Boy)",
     tags: [
-      { label: "Off Stage", color: "#F28C28" },
+      { label: "Off Stage", color: "#7C4280" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
@@ -532,7 +531,7 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "8 (Including at least one female)",
     tags: [
-      { label: "Off Stage", color: "#F28C28" },
+      { label: "Off Stage", color: "#7C4280" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
@@ -566,7 +565,7 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "2",
     tags: [
-      { label: "Off Stage", color: "#F28C28" },
+      { label: "Off Stage", color: "#7C4280" },
       { label: "Group", color: "#0D5BE1" },
     ],
     // description: [
@@ -605,8 +604,8 @@ export const EVENT_DATA = [
     duration: "",
     noOfParticipants: "1",
     tags: [
-      { label: "Off Stage", color: "#F28C28" },
-      { label: "Solo", color: "#228B22" },
+      { label: "Off Stage", color: "#7C4280" },
+      { label: "Solo", color: "#186318" },
     ],
     rules: [
       "Participant have to dress and act as a character.",

@@ -22,3 +22,36 @@
   position: relative;
   // border: 1px solid red;
 }
+
+.event-details-container {
+  overflow: hidden;
+  position: relative;
+  z-index: 9;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.event-detail {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1.8rem;
+  flex-basis: 33%;
+}
+
+.event-info {
+  flex-basis: 70%;
+}
+
+@media (min-width: 48.1em) {
+  .event-details {
+    flex-direction: row;
+    align-items: center;
+  }
+}

@@ -2,8 +2,10 @@
 import * as React from "react";
 
 import PreLoader from "@/components/PreLoader";
+import Feedback from "@/components/Feedback";
 import NextHeader from "@/components/NextHeader";
 import Hero from "@/components/Hero";
+import EventDetails from "@/components/EventDetails";
 import Events from "@/components/Events";
 import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
@@ -80,6 +82,7 @@ export default function Home() {
     <>
       <NextHeader />
       <PreLoader />
+      <Feedback />
       <Hero offsetY={offsetY} />
       <main style={{ position: "relative" }} ref={box}>
         <div
@@ -89,6 +92,7 @@ export default function Home() {
             transform: `translate(0, ${ΔY * 100}px)`,
           }}
         ></div>
+        <EventDetails />
         <Events offsetY={offsetY} />
         <Sponsors />
         <Footer />

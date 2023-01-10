@@ -5,7 +5,16 @@ const Footer = () => {
   return (
     <footer className="footer container-content">
       <div className="mb-10">
-        <h2 className="section-title fv-h1">Contact Us</h2>
+        <div className="footer-logo">
+          <Image
+            src={"/images/xtravaganza_dark.webp"}
+            alt="Xtravaganza logo"
+            height="370"
+            width="370"
+          />
+        </div>
+
+        <h2 className="contact-us-title fv-h2">Contact Us</h2>
         <div className="social-links">
           <a href={"https://www.instagram.com/__xtravaganza__/"}>
             <Image
