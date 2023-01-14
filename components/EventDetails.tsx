@@ -20,7 +20,7 @@ const EventDetails = () => {
                 width="5rem"
               />
               <div className="event-info">
-                <h4 className="fw-semibold">{eventDetail.heading}</h4>
+                <h3 className="fw-semibold">{eventDetail.heading}</h3>
                 <p className="text-alt">{eventDetail.info}</p>
               </div>
             </div>

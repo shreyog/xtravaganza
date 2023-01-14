@@ -10,7 +10,7 @@ const transition: { duration: number; ease: number[] } = {
 const PerLoader = () => {
   return (
     <motion.div
-      animate={{ top: "-100vh", transition: { ...transition, delay: 4 } }}
+      animate={{ top: "-100vh", transition: { ...transition, delay: 2.5 } }}
       className="preloader"
     >
       <div className=" loader">

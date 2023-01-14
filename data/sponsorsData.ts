@@ -1,13 +1,12 @@
 export const above5k = [
   "Aniket Salgaonkar (Sarpanch Dhargalim)",
+  "Bhumiputra Resturant and Bar",
   "Ankita Classic",
   "M/S  Veydant Motors",
   "narayan ghanashyam parab",
   "Aadesh Konadkar",
   "naresh wood industry",
-  "M/S  Veydant Motors",
 ];
-
 
 export const lessThen5KButAbove1k = [
   "Yash Wine Store",
@@ -27,7 +26,7 @@ export const lessThen5KButAbove1kList2 = [
   "Winful diesel Pvt. Ltd.",
   "Amul k p parlor",
   "Shambhavi parsekar",
-  "Krishna bar & Resto",
+  "Krishna Bar & Resto",
 ];
 
 export const lessThen5KButAbove1kList3 = [
@@ -36,7 +35,7 @@ export const lessThen5KButAbove1kList3 = [
   "Thomas D'Souza",
   "Aryan sawal",
   "Rajendra yashwant sawal",
-  "Shubham bar & Resto",
+  "Shubham Bar & Resto",
   "Vilas Morje (Panch)",
   "Nilma Fam. Resto",
 ];
@@ -45,7 +44,7 @@ export const lessThen1kButAbove500 = [
   "Namita chari",
   "Cafe Sateri",
   "Gadevansh mini super market",
-  "River view bar & restaurant",
+  "River view Bar & Resto",
   "DB Electricals Pvt Ltd",
   "Satkar hotel",
   "Prakash cafe",
