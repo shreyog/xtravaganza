@@ -18,7 +18,7 @@ const PerLoader = () => {
         <span></span>
         <span></span>
         <span></span>
-        <span className="fv-h5">&nbsp;Xtravaganza 2.0</span>
+        <span className="fv-h5">&nbsp;Xtravaganza 3.0</span>
       </div>
     </motion.div>
   );
