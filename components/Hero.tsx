@@ -6,7 +6,7 @@ const HeroParallax = ({ offsetY }: { offsetY: number }) => {
       <div className="title-container" style={{}}>
         <h1 style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
           Xtravaganza
-          <br /> <span>2.0</span>
+          <br /> <span>3.0</span>
         </h1>
       </div>
       <div

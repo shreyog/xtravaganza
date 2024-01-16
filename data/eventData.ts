@@ -1,31 +1,37 @@
 import { SALUTATION } from "@/constants/misc";
 
-// import "/images/events/shorts.webp" from "../images/events/shorts.webp";
-// import "/images/events/bingo.jpg" from "../images/events/bingo.jpg";
-
 export const EVENT_DATA = [
   {
-    name: "Shorts",
-    duration: "2 - 5 mins",
-    noOfParticipants: "5 - 8",
+    name: "Human Bingo",
+    duration: "3 - 4 mins",
+    noOfParticipants: "All",
     tags: [
-      { label: "Prelude", color: "#AD0000" },
+      { label: "Prelude", color: "#6127ff" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
-      "Theme: Gender Equality, recession or Goan tourism",
-      "The short film must be original and no watermark of any kind should be on the film.",
-      "The film must be of highest quality possible.",
-      "Adult content of any kind will not be entertained and would lead to direct disqualification.",
-      "The short shall be submitted via xtravaganza2022@gmail.com on or before 10 th Jan 2023 by 12.00 noon.",
-      "Winners of the event will be based on Likes & content.",
+      `Participants are required to represent the team in a distinctive way.`,
+      `Team name will be given by the organiser at the time of online registration.`,
+      `Use of props is allowed.`,
+      `Video must be mailed by 12.00 noon on or before 25th Jan 2024 and should be
+      submitted via xtravaganza2022@gmail.com or you may Whatsapp the same to the
+      event coordinator. The video will be shared by the organising team on the official page
+      of xtravaganza 3.0 on 26th Jan 2024 by 12.00 noon.`,
+      `Winners of the event will be based on Likes & judgement. Use of BOT generated likes is
+      not allowed.`,
+      `The judges decision is final and enforceable.`,
     ],
     coordinators: [
-      { gender: SALUTATION.ms, name: "Nikita Gawade", number: "8605455526" },
+      {
+        gender: SALUTATION.mr,
+        name: "Soham Dessai",
+        number: "9373914489",
+      },
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/shorts.webp",
+      highlightImg: "/images/events/bingo.webp",
+      // cardContentStart: "end",
     },
   },
   {
@@ -37,19 +43,21 @@ export const EVENT_DATA = [
       { label: "Solo", color: "#186318" },
     ],
     rules: [
-      "Theme: Reflective",
-      "Each team shall submit one photo.",
-      "Participant must use DSLR Camera and other required equipment.",
-      "Soft copy of the photo must be mailed in JPEG format by 1 p.m. on or before 10th Jan 2023 and should be submitted via xtravaganza2022@gmail.com",
-      "Winners of the event will be based on Likes & content.",
-      "Photo should be in its original form without any editing or filter.",
-      "No Selfie is allowed.",
-      `Photos that portray or otherwise include inappropriate and/or offensive content,
-      including provocative nudity, violence, human rights and/or environmental violation,
-      and/or any other contents deemed to be contrary to the law, religious, cultural &
-      moral traditions and practices of India, are strictly prohibited and will be immediately
-      discarded.`,
-      "Decision of Judges will be final and binding.",
+      "Theme: STREET PHOTOGRAPHY",
+      "Each team shall submit only one photo.",
+      "The participant needs to have a DSLR camera and the other necessary gear.",
+      `Soft copy of the picture must be mailed in JPEG format max. 5 MB by 12.00
+      noon on or before 25th Jan 2024 and should be submitted via
+      xtravaganza2022@gmail.com. The image will be shared by the organising team
+      on the official page of xtravaganza3.0 on 26th Jan 2024 by 12.00 noon.`,
+      `Winners of the event will be based on Likes & judgement. Use of BOT generated
+      likes is not allowed. Without any altering or filters, the photo should be in its
+      original state. Selfies are not permitted.`,
+      `Images that depict or contain any other inappropriate or offensive content, such as
+      violent scenes, provocative nudity, violations of human rights or the environment, or
+      any other content deemed to be against Indian law, religious, cultural, or moral
+      customs, will be removed without warning.`,
+      "The judges decision is final and enforceable.",
     ],
     coordinators: [
       {
@@ -73,22 +81,23 @@ export const EVENT_DATA = [
       { label: "Solo", color: "#186318" },
     ],
     rules: [
-      "Theme: College Life",
+      "Theme: Artificial Intelligence",
       "A participant can submit only one MEME.",
-      "Good resolution in your submissions is necessary.",
-      "It should be original and depict humor.",
-      `Meme Photo should be in .jpg or .jpeg format with file
-      size not exceeding 5 MB.`,
-      `The Meme shall be submitted via xtravaganza2022@gmail.com
-      on or before 10 th Jan 2023 by 12.00 noon.`,
-      "Winners of the event will be based on Likes.",
-      "Decision of Judges will be final and binding.",
+      `It's essential that your contributions have high resolution. It ought to be humorous and
+      creative.`,
+      `Meme photos should have a maximum file size of 5 MB and be in the.jpg or.jpeg format.`,
+      `The Meme shall be submitted via xtravaganza2022@gmail.com on or before 25th
+      Jan 2024 by 12.00 noon. The meme will be shared by the organising team on the official page of xtravaganza 3.0 on 26th
+      Jan 2024 by 12.00 noon.`,
+      `Winners of the event will be based on Likes & judgement. Use of BOT generated likes is not
+      allowed.`,
+      "Decision of the judges will be final and binding.",
     ],
     coordinators: [
       {
-        gender: SALUTATION.ms,
-        name: "Akansha Mahale",
-        number: "8263872917",
+        gender: SALUTATION.mr,
+        name: "Chetan Pawar",
+        number: "8767035537",
       },
     ],
     cssOptions: {
@@ -99,25 +108,25 @@ export const EVENT_DATA = [
   },
   {
     name: "Hashtag",
-    duration: "30 - 45 sec",
+    duration: "45 - 60 sec",
     noOfParticipants: "5 - 10",
     tags: [
       { label: "Prelude", color: "#AD0000" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
-      "Theme: Myth",
+      "Theme: Xtravaganza",
       "The participants should make a reel on the given theme.",
-      `The reel shall be submitted via xtravaganza2022@gmail.com on or
-      before 9th Jan 2023 by 12.00 noon.`,
+      `The reel shall be submitted via xtravaganza2022@gmail.com on or before 25th
+      Jan 2024 by 12.00 noon. `,
       `The reel will be shared by the organising team on the official page of
-      __XTRAVAGANZA__ on 10th Jan 2023 by 4.00 p.m.`,
-      "Winners of the event will be based on Likes & content.",
+      __XTRAVAGANZA__ on 26th Jan 2024 by 12.00 noon.`,
+      `Winners of the event will be based on Likes & judgement. Use of BOT
+      generated likes is not allowed.`,
       "Decision of judges will be final and binding.",
     ],
     coordinators: [
-      { gender: SALUTATION.mr, name: "Pranav Naik", number: "7620460025" },
-      { gender: SALUTATION.mr, name: "Pranav Naik", number: "7264014711" },
+      { gender: SALUTATION.mr, name: "Ritesh Naik", number: "8788238192" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -125,70 +134,61 @@ export const EVENT_DATA = [
       // cardContentStart: "end",
     },
   },
+
   {
-    name: "Human Bingo",
-    duration: "3 - 4 mins",
-    noOfParticipants: "All",
+    name: "Twosome",
+    duration: "3 - 5 mins",
+    noOfParticipants: "2",
     tags: [
       { label: "On Stage", color: "#6127ff" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
-      `Participants must introduce the team in an unique
-     manner.`,
-      `Team name will be given by the organiser at the time
-     of registration.`,
-      `Use of props is allowed.`,
-      "Decision of judges will be final and binding.",
+      "Theme: MASHUP",
+      "The song could be either in Konkani, Marathi, Hindi or English.",
+      "Participants can sing their original composition.",
+      `Only participants can play instrument (if any) on their own.`,
+      `Participants may carry background instrumental track on pen drive and shall submit at
+      the time of registration.`,
+      "Participants will not be allowed to refer to the lyrics while singing.",
+      `Participants will be judged on the song selection, voice quality, intonation, rhythm and
+      coordination and their appeal to the audience.`,
+      `Choice of songs is open to the participants, however it must not contain any slang or
+      offensive language.`,
+      "Decision of Judges will be final and enforceable.",
     ],
     coordinators: [
-      {
-        gender: SALUTATION.mr,
-        name: "Raj Mavlankar (GS)",
-        number: "9130826571",
-      },
-      {
-        gender: SALUTATION.mr,
-        name: "Raj Mavlankar (GS)",
-        number: "9022587219",
-      },
+      { gender: SALUTATION.mr, name: "Ghanashyam Parab", number: "7378833363" },
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/bingo.webp",
+      highlightImg: "/images/events/duet.webp",
       // cardContentStart: "end",
     },
   },
   {
-    name: "Soloist",
-    duration: "2 - 3 mins",
+    name: "Laughable",
+    duration: "3 - 5 mins",
     noOfParticipants: "1",
     tags: [
-      { label: "On Stage", color: "#6127ff" },
+      { label: "On Stage", color: "#AD0000" },
       { label: "Solo", color: "#186318" },
     ],
     rules: [
       "Theme: Open",
-      "The song could be either in Konkani, Marathi, Hindi or English.",
-      "Participant can sing his/her original composition.",
-      `Participant can play instrument (if any) on their own but cannot be accompanied by any other
-     person to play an instrument.`,
-      `Participant should carry the background music track on pen drive and shall submit at the time
-     of registration.`,
-      "Participants will not be allowed to refer to the lyrics while singing.",
-      `The participants will be judged on the song selection, voice quality, clarity, rhythm and their
-     appeal to the audience.`,
-      `Choice of song is open to the participants but the song should not have any slangs or
-     derogatory language.`,
-      "Decision of Judges will be final and binding.",
+      `Participants will be judged based on fluency , sense of humor , content and originality.`,
+      `In case of use of offensive, discriminatory or inappropriate language / content, such as
+      violent scenes, provocative nudity, violations of human rights or the environment, or any
+      other content deemed to be against Indian law, religious, cultural, or moral customs will lead
+      to disqualification.`,
+      "Decision of the judges will be final and enforceable.",
     ],
     coordinators: [
-      { gender: SALUTATION.ms, name: "Sonali Bandekar", number: "8010760096" },
+      { gender: SALUTATION.ms, name: "Prajakta Parab", number: "9834293259" },
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/soloist.webp",
-      // cardContentStart: "end",
+      highlightImg: "/images/events/laughable.webp",
     },
   },
   {
@@ -200,16 +200,16 @@ export const EVENT_DATA = [
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
-      "Theme: Free Style Group Dance",
-      `Team should carry the background music track on pen drive and
-     shall submit at the time of registration.`,
+      "Dance Form: Contemporary",
+      `Team should carry the background music track on pen drive and shall submit at
+      the time of registration.`,
       `Use of props is allowed. Prior permission needs to be taken for
      utilization of props.`,
       "Dance performers should not convey any indecent gestures.",
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
-      { gender: SALUTATION.ms, name: "Neha Govekar", number: "9325735870" },
+      { gender: SALUTATION.ms, name: "Neha Mavlankar", number: "8999078819" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -228,7 +228,7 @@ export const EVENT_DATA = [
     rules: [
       "Three Rounds:",
       `Introduction Round:
-      Participant need to do ramp walk and introduce themselves.`,
+      Participants must introduce themselves and walk the ramp.`,
       `Talent Round:
       Participants have to showcase their talent within 2 minutes.
       Participant should carry the background music on pen drive and shall submit it during registration.`,
@@ -239,13 +239,13 @@ export const EVENT_DATA = [
     coordinators: [
       {
         gender: SALUTATION.ms,
-        name: "Sushanti Parab (LR)",
-        number: "9322360135",
+        name: "Esha Godkar",
+        number: "9921486830",
       },
       {
         gender: SALUTATION.mr,
-        name: "Pratham Sarmalkar",
-        number: "9284850043",
+        name: "Shivshant Hiremath",
+        number: "8484990655",
       },
     ],
     cssOptions: {
@@ -263,7 +263,8 @@ export const EVENT_DATA = [
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
-      "Theme: Wild",
+      `Theme: Futuristic Fusion (Blending modern silhouettes with
+        innovative materials and technology)`,
       `Team should carry their background music track on
       pen drive and shall submit at the time of registration.`,
       "Teams should bring their own props.",
@@ -272,13 +273,8 @@ export const EVENT_DATA = [
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
-      {
-        gender: SALUTATION.mr,
-        name: "Avishkar Sawal Desai",
-        number: "8484989052",
-      },
-      { gender: SALUTATION.ms, name: "Daya Naik", number: "9765648646" },
-      { gender: SALUTATION.ms, name: "Daya Naik", number: "7020133995" },
+      { gender: SALUTATION.ms, name: "Dipanti Dhuri", number: "7057064157" },
+      { gender: SALUTATION.ms, name: "Sanika Rawool", number: "7066721811" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -295,16 +291,16 @@ export const EVENT_DATA = [
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
-      `Participant will have to do PowerPoint
-      Presentation of a business plan for a new venture.`,
+      `A PowerPoint presentation of a new venture's
+      business strategy is required of each participant.`,
       `PPT shall be submitted to the email id
-      xtravaganza2022@gmail.com by 10th Jan 2023 by
-      2.p.m.`,
+      xtravaganza2022@gmail.com by 25th Jan 2024 by
+      12.00 noon.`,
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
-      { gender: SALUTATION.mr, name: "Sagar Zantye", number: "7588239874" },
-      { gender: SALUTATION.mr, name: "Sagar Zantye", number: "9370429174" },
+      { gender: SALUTATION.ms, name: "Pooja Gawade", number: "7498724716" },
+      { gender: SALUTATION.ms, name: "Jessi Fernandes", number: "8975126921" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -331,9 +327,8 @@ export const EVENT_DATA = [
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
-      { gender: SALUTATION.ms, name: "Priyanka Mathkar", number: "8788818822" },
-      { gender: SALUTATION.ms, name: "Jagruti Chari", number: "9673170763" },
-      { gender: SALUTATION.ms, name: "Jagruti Chari", number: "9021617893" },
+      { gender: SALUTATION.mr, name: "Atmaram Gawade ", number: "8767347531" },
+      { gender: SALUTATION.mr, name: "Ayush Shetye", number: "7666527359" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -360,8 +355,8 @@ export const EVENT_DATA = [
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
-      { gender: SALUTATION.ms, name: "Shivani Dessai", number: "8468948068" },
-      { gender: SALUTATION.mr, name: "Pratiksha Naik", number: "9607484966" },
+      { gender: SALUTATION.mr, name: "Laxman Thakur", number: "7822062351" },
+      { gender: SALUTATION.mr, name: "Prajyot Apule", number: "7020505600" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -378,52 +373,27 @@ export const EVENT_DATA = [
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
-      `Participants will be provided set of clues based on
-      which they have to hunt for the final destination.`,
-      `The first three teams reaching the final destination
-      will secure first, second and third place respectively.`,
-      `Participants cannot carry smart phone, earphone,
-      Bluetooth or any other electronic device.`,
-      `During the event, any kind of communication/
-      interaction with others except organising team is
-      strictly prohibited.`,
-      `Cheating, sabotaging, removing hidden items/ clues
-      will lead to disqualification.`,
+      `A series of hints will be given to participants, and
+      they will use these to guide them in their search for
+      the destination.`,
+      `First, second, and third place will be awarded to the
+      first three teams to arrive at the destination.`,
+      `No smart phone, earbuds, Bluetooth, or other
+      electronic device may be carried by participants.`,
+      `Any form of communication or engagement with
+      anyone other than the organizing team is absolutely
+      forbidden during the event.`,
+      `Cheating, sabotaging, deleting hidden items/ hints
+      will lead to disqualification.Decision of the organizers
+      will be final and binding.`,
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
-      { gender: SALUTATION.mr, name: "Ayush Mayekar", number: "7773918363" },
-      { gender: SALUTATION.mr, name: "Roger Fernandes", number: "9423467131" },
+      { gender: SALUTATION.mr, name: "Sanket Naik", number: "7498320976" },
     ],
     cssOptions: {
       allowFloatingTags: true,
       highlightImg: "/images/events/hire.webp",
-      // cardContentStart: "end",
-    },
-  },
-  {
-    name: "Maquillage",
-    duration: "1hr",
-    noOfParticipants: "2",
-    tags: [
-      { label: "Off Stage", color: "#7C4280" },
-      { label: "Group", color: "#0D5BE1" },
-    ],
-    rules: [
-      "Theme : Topic will be given on the spot",
-      "Participants should bring their own colors, brushes etc.",
-      `Participants will be judged on the basis of creativity,
-        innovation and design.`,
-      `Usage of any reference material is strictly prohibited.`,
-      "Decision of Judges will be final and binding.",
-    ],
-    coordinators: [
-      { gender: SALUTATION.ms, name: "Kajal Rawool", number: "8421622620" },
-      { gender: SALUTATION.mr, name: "Bhavesh Narvekar", number: "7038403560" },
-    ],
-    cssOptions: {
-      allowFloatingTags: true,
-      highlightImg: "/images/events/maquillage.webp",
       // cardContentStart: "end",
     },
   },
@@ -436,20 +406,46 @@ export const EVENT_DATA = [
       { label: "Solo", color: "#186318" },
     ],
     rules: [
+      "Theme : Topic will be given on the spot",
+      `Participant will be provided with the medium size earthen vase
+      by the organizers.`,
+      `Usage of any reference material is strictly prohibited.`,
+      `Participants will be judged on the basis of creativity, originality and
+      colour scheme.`,
+      `Participant should bring their own decoration material, glue etc.`,
+      "Decision of Judges will be final and binding.",
+    ],
+    coordinators: [
+      { gender: SALUTATION.ms, name: "Pavitra Haldankar", number: "9767143883" },
+    ],
+    cssOptions: {
+      allowFloatingTags: true,
+      highlightImg: "/images/events/artistry.webp",
+      // cardContentStart: "end",
+    },
+  },
+  {
+    name: "Canva",
+    duration: "1hr",
+    noOfParticipants: "1",
+    tags: [
+      { label: "Off Stage", color: "#7C4280" },
+      { label: "Solo", color: "#186318" },
+    ],
+    rules: [
       "Theme: Topic will be given on the spot",
-      `Participant is required to paint a GLASS bottle which
-      will be provided by the organizers.`,
-      "Usage of any reference material is strictly prohibited.",
+      `Canvas (A4 Size) will be provided to the participant.`,
+      "Participants should bring their own colors, brushes etc.",
       `Participants will be judged on the basis of creativity,
       innovation and design.`,
-      "Participant should bring their own material/colours.",
+      "Usage of any reference material is strictly prohibited.",
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
       {
-        gender: SALUTATION.ms,
-        name: "Kajal Rawool",
-        number: "8421622620",
+        gender: SALUTATION.mr,
+        name: "Kartik Sawant",
+        number: "9322694823",
       },
       {
         gender: SALUTATION.ms,
@@ -459,12 +455,12 @@ export const EVENT_DATA = [
     ],
     cssOptions: {
       allowFloatingTags: true,
-      highlightImg: "/images/events/artistry.webp",
+      highlightImg: "/images/events/maquillage.webp",
       // cardContentStart: "end",
     },
   },
   {
-    name: "Street Play",
+    name: "Street Theatre",
     duration: "10 mins",
     noOfParticipants: "8 - 10",
     tags: [
@@ -472,7 +468,7 @@ export const EVENT_DATA = [
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
-      "Theme: Women Safety, COVID, NEP",
+      "Theme: Drug Addiction or Consumer Awareness",
       `The Competition will be conducted in an open place and hence no microphones,
       Speakers will be allowed or available.`,
       `Teams using any props / Costume / Dressing must bring all their requirements and
@@ -486,9 +482,8 @@ export const EVENT_DATA = [
       "Decision of Judges will be final and binding.",
     ],
     coordinators: [
-      { gender: SALUTATION.ms, name: "Yamini Bandekar", number: "9168751046" },
-      { gender: SALUTATION.ms, name: "Yamini Bandekar", number: "8010617244" },
-      { gender: SALUTATION.ms, name: "Sneha Sawant", number: "8408924339" },
+      { gender: SALUTATION.mr, name: "Rutik Naik", number: "9326130050" },
+      { gender: SALUTATION.mr, name: "Vishant Naik", number: "8805934116" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -507,7 +502,7 @@ export const EVENT_DATA = [
     rules: [
       "Participants will be given physical task to perform on the spot.",
       "No replacement of the players during the physical task.",
-      "Participants are requested to carry an extra pair of clothes.",
+      "Participants are requested to carry an extra pair of sports attire, shoes, etc",
       "Participant shall adhere to the rules and regulations of the physical task.",
       "Non - adherence shall lead to disqualification of the team.",
       "Decision of Judges will be final and binding.",
@@ -515,10 +510,9 @@ export const EVENT_DATA = [
     coordinators: [
       {
         gender: SALUTATION.mr,
-        name: "Nikhil Kandolkar (SS)",
-        number: "7066625390",
+        name: "Juel Sarkar",
+        number: "7972518008",
       },
-      { gender: SALUTATION.mr, name: "Sanket Halankar", number: "7499748295" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -529,7 +523,7 @@ export const EVENT_DATA = [
   {
     name: "Sweepstakes",
     duration: "",
-    noOfParticipants: "8 (Including at least one female)",
+    noOfParticipants: "8 (Including at least 3 female)",
     tags: [
       { label: "Off Stage", color: "#7C4280" },
       { label: "Group", color: "#0D5BE1" },
@@ -549,10 +543,9 @@ export const EVENT_DATA = [
     coordinators: [
       {
         gender: SALUTATION.mr,
-        name: "Nehal Kashalkar",
-        number: "8530889967",
+        name: "Juel Sarkar",
+        number: "7972518008",
       },
-      { gender: SALUTATION.mr, name: "Sanket Halankar", number: "7499748295" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -568,13 +561,13 @@ export const EVENT_DATA = [
       { label: "Off Stage", color: "#7C4280" },
       { label: "Group", color: "#0D5BE1" },
     ],
-    // description: [
-    //   `Using a life sized Snakes and Ladders game field, participants will be able to play
-    // Snakes and Ladders as the pieces on the board.`,
-    //   `They will play the game using a life sized dice and whenever they reach a snake or
-    // ladder on the board, they will be asked to answer a technical question. Ready to climb
-    // some ladders and dodge some venomous snakes?`,
-    // ],
+    description: [
+      `Using a life sized Snakes and Ladders game field, participants will be able to play
+    Snakes and Ladders as the pieces on the board.`,
+      `They will play the game using a life sized dice and whenever they reach a snake or
+    ladder on the board, they will be asked to answer a technical question. Ready to climb
+    some ladders and dodge some venomous snakes?`,
+    ],
     // format: [
     //   `Each game will take place for a maximum of 20 minutes, with 4 teams playing in a
     // game.`,
@@ -587,11 +580,10 @@ export const EVENT_DATA = [
     // ],
     coordinators: [
       {
-        gender: SALUTATION.ms,
-        name: "Shivani Dessai",
-        number: "8468948068",
+        gender: SALUTATION.mr,
+        name: "Nikhil Mhamal",
+        number: "9665332665",
       },
-      { gender: SALUTATION.ms, name: "Pratiksha Naik", number: "9607484966" },
     ],
     cssOptions: {
       allowFloatingTags: true,
@@ -624,8 +616,8 @@ export const EVENT_DATA = [
     coordinators: [
       {
         gender: SALUTATION.mr,
-        name: "Viraj Rao",
-        number: "9579465210",
+        name: "Sahil Shetgaonkar",
+        number: "8605863755",
       },
     ],
     cssOptions: {

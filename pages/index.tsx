@@ -82,7 +82,7 @@ export default function Home() {
     <>
       <NextHeader />
       <PreLoader />
-      <Feedback />
+      {/* <Feedback /> */}
       <Hero offsetY={offsetY} />
       <main style={{ position: "relative" }} ref={box}>
         <div
@@ -94,7 +94,7 @@ export default function Home() {
         ></div>
         <EventDetails />
         <Events offsetY={offsetY} />
-        <Sponsors />
+        {/* <Sponsors /> */}
         <Footer />
       </main>
     </>

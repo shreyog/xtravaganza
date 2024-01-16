@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="mb-10">
         <div className="footer-logo">
           <Image
-            src={"/images/xtravaganza_dark.webp"}
+            src={"/images/xtravaganza_3.webp"}
             alt="Xtravaganza logo"
             height="370"
             width="370"

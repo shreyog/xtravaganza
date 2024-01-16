@@ -2,7 +2,7 @@ export const EVENT_DETAILS = [
   {
     iconSrc: "/images/icons/calendar.webp",
     heading: "When",
-    info: `January 14th, 2023`,
+    info: `January 30th, 2024`,
   },
   {
     iconSrc: "/images/icons/mobile.webp",
