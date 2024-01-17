@@ -98,7 +98,7 @@ const EventDetail = ({
       whileInView="onscreen"
       transition={{
         duration: 0.2,
-        delay: id * 0.09,
+        delay: id * 0.02,
       }}
       viewport={{ once: true, amount: 0.8 }}
     >
@@ -150,14 +150,15 @@ const Events = ({ offsetY }: { offsetY: number }) => {
 
   return (
     <>
-      <section className="event-container">
-        <div className="event-container-content mb-10">
+      <section className="event-container mt-10">
+        <div className="event-container-content">
           <h2 className="section-title fv-h2">Event&apos;s</h2>
           <motion.div
             className="event-grid container-content"
             variants={container}
             style={{
               position: "relative",
+              marginTop: "6rem"
               // transform: `translateY(${offsetY * 0.08}px)`,
             }}
           >

@@ -6,7 +6,7 @@ export const EVENT_DATA = [
     duration: "3 - 4 mins",
     noOfParticipants: "All",
     tags: [
-      { label: "Prelude", color: "#6127ff" },
+      { label: "Prelude", color: "#AD0000" },
       { label: "Group", color: "#0D5BE1" },
     ],
     rules: [
@@ -171,7 +171,7 @@ export const EVENT_DATA = [
     duration: "3 - 5 mins",
     noOfParticipants: "1",
     tags: [
-      { label: "On Stage", color: "#AD0000" },
+      { label: "On Stage", color: "#6127ff" },
       { label: "Solo", color: "#186318" },
     ],
     rules: [
