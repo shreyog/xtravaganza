@@ -447,11 +447,6 @@ export const EVENT_DATA = [
         name: "Kartik Sawant",
         number: "9322694823",
       },
-      {
-        gender: SALUTATION.ms,
-        name: "Yogeshwari Naik",
-        number: "7666194519",
-      },
     ],
     cssOptions: {
       allowFloatingTags: true,
